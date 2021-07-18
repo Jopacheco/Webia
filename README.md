@@ -1,2 +1,2 @@
 # WebiaApp
-App Webia
+App Webia based on Vue (Front-End)
