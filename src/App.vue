@@ -6,9 +6,10 @@
 </template>
 
 <script>
-//import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import NavBar from "@/components/NavBar.vue";
+
 export default {
   name: "App",
   components: {

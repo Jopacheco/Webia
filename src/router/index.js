@@ -31,9 +31,9 @@ const routes = [
     component: () => import("@/views/Repository.vue"),
   },
   {
-    path: "/login",
-    name: "Login",
-    component: () => import("@/views/Login.vue"),
+    path: "/about",
+    name: "Acerca",
+    component: () => import("@/views/About.vue"),
   },
   {
     path: "/tool",
@@ -58,7 +58,7 @@ const routes = [
   {
     path: "/contato",
     name: "Contato",
-    component: () =>import("@/views/contato.vue")
+    component: () =>import("@/views/contact.vue")
   },
 
   // Redirect to 404 page, if no match found

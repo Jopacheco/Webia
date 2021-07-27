@@ -1,2 +1,2 @@
-const api_url = "http://localhost:8081";
-export default api_url;
+const BASE_URL = "https://webia.herokuapp.com";
+export default BASE_URL;

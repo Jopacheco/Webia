@@ -52,8 +52,8 @@
               É neste sentido que são disponibilizadas ferramentas e outros
               recursos didáticos de forma livre, prática e
               acessível em 5 áreas no Repositório. De forma a ficarmos com o vosso contato, pode e deve efetuar o seu registo
-               <a class="text-white" @click="registo()"><b>aqui</b></a><br>Pode usar os contatos do rodapé ou contatar-nos diretamente
-               <a class="text-white" @click="contato()"><b>aqui</b></a> </p>               
+               <a class="text-white" href=/registo><b>aqui. </b></a>Pode usar os contatos do rodapé ou contatar-nos diretamente <a class="text-white" href=/contato><b>aqui. </b></a> </p>
+               
               <p>
             </p>
           </div>
@@ -123,19 +123,3 @@
     </div>
   </b-container>
 </template>
-<script>
-
-import router from "@/router";
-
-export default {
-  methods: {
-    registo() {
-      router.push({ name: "Registo" });
-    },
-    contato(){
-      router.push({name: "Acerca"});
-    }
-  
-  },
-}
-</script>

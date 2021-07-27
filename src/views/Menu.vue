@@ -24,7 +24,7 @@
           <b-row>
           <b-col cols="4"></b-col>
           <b-col cols="4">  
-              <h5 class="text-center mt-0"><a href=/mtools>Gestão de Ferramentas</a></h5>
+              <h5 class="text-center mt-0"><b-nav-item to="/mtools">Gestão de Ferramentas</b-nav-item></h5>
               <br>
               <h5 class="text-center mt-0"><a href=/api/users>Ver Visitantes</a></h5>
               <br>

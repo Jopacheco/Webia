@@ -1,9 +1,9 @@
 <template>
-  <b-container>
+  <b-container fluid>
     <section id="AI4K12" class="page-section bg-primary text-white mt-4">
       <div class="container">
         <!-- IA Section Heading-->
-        <div class="text-center">
+        <div class="text-center mr-auto ml-auto">
           <h3 class="page-section-heading d-inline-block text-white">
             AI4K12 e as cinco grandes ideias em IA
           </h3>
@@ -77,21 +77,11 @@
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-brain"></i></div>
-          <pre>
-                        <div class="divider-custom-line"></div></pre>
-
-          <!-- IA Section Content-->
-          <div class="row">
-            <div class="col-lg-0 ml-auto">
-              <p class="pre-wrap lead"></p>
-            </div>
-            <div class="col-lg-0 mr-auto">
-              <p class="pre-wrap lead"></p>
-            </div>
-          </div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-brain"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>         
         </div>
-      </div>
-    </section>
+       </section>
   </b-container>
 </template>

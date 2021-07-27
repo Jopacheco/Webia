@@ -1,9 +1,9 @@
 <template>
-  <section class="page-section">
+  <section class="page-section mt-5">
     <b-container>
       <b-row class="text-center">
         <b-col>
-          <h3 class="page-section-heading mt-5">Registo de Visitante</h3>
+          <h3 class="text-secondary  d-inline-block mt-2">Registo de Visitante</h3>
         </b-col>
       </b-row>
       <b-row class="text-center">
@@ -16,28 +16,26 @@
             <div class="divider-custom-line"></div>
           </div>
         </b-col> </b-row
-      ><br><br>
-      <b-row>
-        <b-col cols="4">
-         </b-col>
-        <b-col cols="4">
-
-      <!--FORM-->      
-          <form method="post" action="/api/users" @submit.prevent="createUser" >
+      ><br />
+      <br />
+      <form id="registo" method="post" action="/api/users">
+        <b-row>
+          <b-col cols="4"></b-col>
+          <b-col cols="4">
             <div class="form-group">
-              <label for="nome"><b>Nome</b><span class="text-danger"> *</span></label>
+              <label for="nome">Nome<span class="text-danger"> *</span></label>
               <input
                 id="nome"
-                v-model="nome"
                 type="text"
+                class="form-control"
+                name="nome"
+                placeholder="Escreva o seu nome"
                 value=""
-                class="form-control form-control-lg"
-                placeholder="escreva o seu nome"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="data"><b>Idade</b><span class="text-danger"> *</span></label>
+              <label for="data">Idade<span class="text-danger"> *</span></label>
               <input
                 id="idade"
                 v-model="idade"
@@ -49,41 +47,47 @@
                 max="80"
                 required
               />
-            </div>                      
+            </div>     
               <div class="form-group">
-               <label for="email"><b>Email</b><span class="text-danger"> *</span></label>
+              <label for="email"
+                >Email <span class="text-danger">*</span></label
+              >
               <input
                 id="email"
-                v-model="email"
                 type="email"
+                class="form-control"
+                name="email"
+                placeholder="Escreva o seu email"
                 value=""
-                class="form-control form-control-lg"
-                placeholder="escreva o seu email"
-                required/>
+                required
+              />
             </div>
-              <div class="form-group" required>
+            <div class="form-group" >
               <label for="ocupacao"><b>Selecione a sua ocupação :</b><span class="text-danger"> *</span></label><br>            
-              <input id="idal" v-model="ocupacao" type="radio" value="aluno" label for="idal">  Aluno(a) 
-              <input id="idprf" v-model="ocupacao" type="radio" value="professor" label for="idprf">  Professor(a)
-              <input id="idoutro" v-model="ocupacao" type="radio" value="outro" label for="idoutro">  Outro(a) 
+              <input id="idal"  type="radio" value="aluno" label for="idal" name="ocupacao">  Aluno(a) 
+              <input id="idprf" type="radio" value="professor" label for="idprf" name="ocupacao">  Professor(a)
+              <input id="idoutro" type="radio" value="outro" label for="idoutro" name="ocupacao">  Outro(a) 
               </div> 
               <div class="form-group" required>
               <label for="nivel"><b>Selecione o nível ensino da sua instituição:</b><span class="text-danger"> *</span></label><br>
-              <input id="nivelb" v-model="nivel" type="radio" value="Básico" label for="nivelb"> Básico
-              <input id="nivels" v-model="nivel" type="radio" value="Secundario" label for="nivels"> Secundário
-              <input id="nivelu" v-model="nivel" type="radio" value="Universitário" label for="nivelu"> Universitário
+              <input id="nivelb" type="radio" value="Básico" label for="nivelb" name="nivel"> Básico
+              <input id="nivels" type="radio" value="Secundario" label for="nivels" name="nivel"> Secundário
+              <input id="nivelu" type="radio" value="Universitário" label for="nivelu" name="nivel"> Universitário
               </div><br>           
-              <div class="form-group">
-              <input type="button" @click="createUser" class="btn btn-info btn-block">Registar
-              </div>
-            </form>
-        </b-col>
-      </b-row>
+            
+            <div class="form-group">
+              <input
+                type="submit"
+                value="Registar"
+                class="btn btn-info btn-block"
+              />
+            </div>
+          </b-col>
+        </b-row>
+      </form>
     </b-container>
   </section>
 </template>
 
 <script>
-
-
 </script>
