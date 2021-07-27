@@ -20,7 +20,7 @@
       <br />
       <div class="b-container">
         <div class="jumbotron">
-          <h5 class="text-center text-primary mt-0">Registar ferramenta</h5>
+          <h5 class="text-center text-secondary mt-0">Registar ferramenta</h5>
           <br />
           <form
             id="registo"

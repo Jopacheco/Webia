@@ -9,10 +9,10 @@
           alt="Robot"
         />
         <!-- Masthead Heading-->
-        <h3 class="masthead-heading test-uppercase mb-0">
+        <h5 class="masthead-heading test-uppercase mb-0">
           Plataforma Web
           <p>de Inteligência Artificial</p>
-        </h3>
+        </h5>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>

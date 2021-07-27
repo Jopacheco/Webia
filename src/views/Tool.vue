@@ -20,7 +20,7 @@
       <br />
       <b-container>
         <div class="jumbotron">
-          <h5 class="text-center text-primary">Visualizar ferramenta(s)</h5>
+          <h5 class="text-center text-secondary">Visualizar ferramenta(s)</h5>
           <br />
           <b-form id="" method="get" action="api/tools/" class="needs-validation">
             <b-row>
@@ -50,6 +50,10 @@
 </template>
 
 <script>
+//import BASE_URL from '../../api/config';
+export default{
+
+}
 
 </script>
 

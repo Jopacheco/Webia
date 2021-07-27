@@ -24,9 +24,9 @@
           <b-row>
           <b-col cols="4"></b-col>
           <b-col cols="4">  
-              <h5 class="text-center mt-0"><a href=/rtool>Registo de Ferramenta</a></h5>
+              <h5 class="text-center mt-0"><b-nav-item to="/rtool">Registo de Ferramenta</b-nav-item></h5>
               <br>
-              <h5 class="text-center mt-0"><a href=/tool>Ver Ferramentas</a></h5>
+              <h5 class="text-center mt-0"><b-nav-item to=/tool>Ver Ferramentas</b-nav-item></h5>
                </b-col></b-row>
                 </div>
                 </b-container>

@@ -24,11 +24,11 @@
           <b-row>
           <b-col cols="4"></b-col>
           <b-col cols="4">  
-              <h5 class="text-center mt-0"><b-nav-item to="/mtools">Gestão de Ferramentas</b-nav-item></h5>
+              <h5 class="text-center text-secondary mt-0"><b-nav-item to="/mtools">Gestão de Ferramentas</b-nav-item></h5>
               <br>
-              <h5 class="text-center mt-0"><a href=/api/users>Ver Visitantes</a></h5>
+              <h5 class="text-center mt-0"><b-nav-item to="/api/users">Ver Visitantes</b-nav-item></h5>
               <br>
-              <h5 class="text-center mt-0"><a href=/api/gusers>Ver Utilizadores</a></h5>
+              <h5 class="text-center mt-0"><b-nav-item to="/api/gusers">Ver Utilizadores</b-nav-item></h5>
              </b-col></b-row>                
         </div>
         </b-container>
