@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktest"]=self["webpackChunktest"]||[]).push([[269],{3269:function(n,t,i){i.r(t),i.d(t,{default:function(){return c}});var e=function(){var n=this,t=n._self._c;return t("div",{attrs:{id:"login"}},[this.$parent.authenticated?n._e():t("div",[t("button",{on:{click:function(t){return n.login()}}},[n._v(" Login ")])])])},u=[];const r="/menu";var l={name:"login",methods:{login(){this.$auth.signInWithRedirect({originalUri:r})}}},s=l,o=i(1001),a=(0,o.Z)(s,e,u,!1,null,null,null),c=a.exports}}]);
+//# sourceMappingURL=269.cddbb014.js.map
